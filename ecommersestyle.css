@@ -1,0 +1,117 @@
+body{
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.parent{
+    background: pink;
+    border: 1px solid #000000;
+    margin: 40px;
+    border-radius: 25px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 10fr;
+
+}
+
+.header{
+    padding: 80px 70px 10px 120px;
+    display: flex;
+    justify-content: space-between;
+    Font-size: 20px;
+    font-weight: 600px;
+    Line-height: 30px;
+    Line-height: 100%;
+}
+
+.roby{
+    margin-top: 20px;
+}
+.menubar ul{
+    list-style: none; 
+}
+
+.menubar li{
+    display: inline-block;
+    padding-left: 80px ;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    
+
+}
+
+.leftside{
+    padding-left: 120px;
+    padding-top: 60px;
+
+}
+
+.new{
+    Font-size: 20px;
+    font-weight: 600px;
+    
+}
+
+.yeezy{
+    Font-size: 45px;
+    font-weight: 1000px;
+    
+}
+
+.explore{
+    Font-size: 20px;
+    font-weight: 600px;
+}
+
+.button{
+    
+    border-radius: 13px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    width: 210px;
+    height: 82px;
+}
+
+
+.shoe{
+    display: block;
+    margin: 40px auto auto auto;
+}
+
+
+/* Media Query */
+
+
+@media (min-width: 414px) and (max-width: 896px) {
+    html {
+        font-size: 70%;
+    }
+    .parent {
+        height: 100vh;
+        margin: 0;
+
+    }
+
+
+    .header{
+        padding: 10px;
+    }
+
+    .shoe{
+        width: 200px;
+
+        margin-top: 200px;
+        
+    }
+
+    .leftside{
+        padding-left: 10px;
+        padding-top: 10px;
+    
+    }
+    
+}
